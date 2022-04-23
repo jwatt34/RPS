@@ -1,0 +1,54 @@
+body{
+  /* background-color: #dedede; */
+  /* background: radial-gradient( circle, #e6e6e6 55%, #4afff0 150%); */
+  background: radial-gradient( circle, #e3e0cf 55%, #9fa8a3 100%);
+  color: #566667;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 1.5% 10% 1.5% 10%;
+}
+
+img{
+  width: 65px;
+  height: 70px;
+}
+
+.choices{
+  display: flex;
+  margin: 7% auto 7% auto;
+}
+
+.choice{
+  flex: 1;
+}
+
+.results{
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.35);
+  font-family: 'Ubuntu';
+  font-size: 1.5rem;
+}
+
+.results div{
+  flex: 1;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  opacity: .6;
+}
+
+.pressed{
+  opacity: .5;
+}
+
+.roundWinner{
+  /* background-color: #edf0ee; */
+  /* background-color: #d0eff5; */
+  /* background-color: #d0f5f2; */
+  background-color: #c5d5cb;
+  opacity: 1 !important;
+  transition: all .75s;
+}
+
+.hidden{
+  display: none;
+}
