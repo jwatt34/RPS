@@ -1,6 +1,4 @@
 body{
-  /* background-color: #dedede; */
-  /* background: radial-gradient( circle, #e6e6e6 55%, #4afff0 150%); */
   background: radial-gradient( circle, #e3e0cf 55%, #9fa8a3 100%);
   color: #566667;
   font-family: 'Montserrat', sans-serif;
@@ -41,9 +39,6 @@ img{
 }
 
 .roundWinner{
-  /* background-color: #edf0ee; */
-  /* background-color: #d0eff5; */
-  /* background-color: #d0f5f2; */
   background-color: #c5d5cb;
   opacity: 1 !important;
   transition: all .75s;
